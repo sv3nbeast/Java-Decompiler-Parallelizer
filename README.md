@@ -23,12 +23,12 @@ cd JavaDecompilerParallelizer
 
 3. **运行反编译脚本**
   ```
-  python decompile_multiprocess.py /path/to/your/directory
+  python cfr.py /path/to/your/directory
   ```
   其中，`/path/to/your/directory` 是包含 `.jar` 和 `.class` 文件的目录路径。
 
 ## 项目结构
-- `decompile_multiprocess.py`：主脚本文件，包含反编译功能的实现。
+- `cfr.py`：主脚本文件，包含反编译功能的实现。
 - CFR-0.152.jar：CFR反编译器（需自行下载）。
 ## 贡献指南
   欢迎任何形式的贡献！您可以通过提交Issue或Pull Request来帮助改进本项目。
